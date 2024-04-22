@@ -29,7 +29,7 @@ Here's a breakdown of the core technologies used.
 * SAP Crystal Reports
 
 <div style="background-color:#D9EDF7; border-left:6px solid #31708F; padding:0.5em; margin-bottom:1em;">
-  <i class="fas fa-info-circle"></i> <strong>NOTE</strong>
+  <i class="fas fa-info-circle" style="colour : #3d95ba"></i> <strong>NOTE</strong>
   <p>Kindly follow the training courses if you are not familiar with any of the above technologies.</p>
 </div>
 
