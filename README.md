@@ -1,4 +1,4 @@
-# COMPULIN ERP # <img src="images/logo.png" alt="Logo" height="30"/>
+# COMPULIN ERP <img src="images/logo.png" alt="Logo" style="height:50px; margin-top:5px;" />
 
 *Estimated read time: 4 minutes | For Development Team*
 
@@ -10,6 +10,6 @@ COMPULIN ERP is a customizable cloud-based software solution designed to streaml
 * **Receipting Module**: Handles the processing of incoming receipts.
 * **Debtor & Creditor Module**: Manages accounts receivable and payable.
 * **Accounting & Final Accounts Module**: Facilitates general accounting tasks and the preparation of final accounts.
-* **Job Costing Module**: Assists in estimating and tracking project costs.
+* **Job Costing Module**: Estimating and tracking construction project costs.
   
 
