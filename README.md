@@ -1,10 +1,9 @@
 #  <img src="images/logo.png" alt="Logo" style="height:50px; margin-top:5px;" />  COMPULIN ERP
-<span style="font-size:11px;">Estimated read time: 4 minutes | For Development Team</span>
+<span style="font-size:12px;">Estimated read time: 4 minutes | For Development Team</span>
 
 
 COMPULIN ERP is a customizable cloud-based software solution designed to streamline various business processes. It comprises the following individual modules:
 
-* **Payroll & HRM Module**: Manages employee data and payroll systems.
 * **Payroll & HRM Module**: Manages employee data and payroll systems.
 * **Inventory Control Module**: Monitors and control stocks.
 * **Payment Control Module**: Oversees and controls outgoing payments.
@@ -18,8 +17,6 @@ COMPULIN ERP is a customizable cloud-based software solution designed to streaml
 Here's a breakdown of the core technologies used.
 
 * AWS (Amazon Web Services)
-  * EC2, 
-  * 
 * .NET Framework 
 * C#
 * Entity Framework 6
@@ -31,3 +28,10 @@ Here's a breakdown of the core technologies used.
   <strong>NOTE</strong>
   <p>Kindly follow the training courses if you are not familiar with any of the above technologies.</p>
 </div>
+
+## How to onboard a new customer ?
+
+Once your sales department onbord a new cusotmer for ERP, there are few things that you need to do.
+1. Start new tenent for the new customer
+2. Create logins for the customer
+3. Plan customer trainings
