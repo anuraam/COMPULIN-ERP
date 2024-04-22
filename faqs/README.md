@@ -1,7 +1,5 @@
-#  COMPULIN ERP
-<span style="font-size:12px;">1 minutes read time | For Development Team</span>
-
 # Frequently ask questions
+<span style="font-size:12px;">1 minutes read time | For Development Team</span>
 
 ## How to backup / restore an AWS RDS-MSSQL database manually ?
 

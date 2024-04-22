@@ -1,9 +1,9 @@
-#  <img src="images/logo.png" alt="Logo" style="height:50px; margin-top:5px;" />  COMPULIN ERP
+#  <img src="images/logo.png" alt="Logo" style="height:50px; margin-top:5px;" /> Cloud-Based ERP
 <span style="font-size:12px;">4 minutes read time | For Development Team</span>
 
 [FAQreference]:  faqs
 
-COMPULIN ERP is a customizable <span style="color: red">cloud-based</span> software solution designed to streamline various business processes. It comprises the following individual modules:
+COMPULIN ERP is a customizable cloud-based software solution designed to streamline various business processes. It comprises the following individual modules:
 
 * **Payroll & HRM Module**: Manages employee data and payroll systems.
 * **Inventory Control Module**: Monitors and control stocks.
