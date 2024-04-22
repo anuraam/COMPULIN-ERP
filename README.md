@@ -44,3 +44,6 @@ When you have a new team member to the development team, there are a few key ste
 1. <b>Setup development Environment</b> for the new team member.
 2. <b>Introduce</b> to the customers.
 3. Plan <b>training and knoledge transfer sessions</b>
+   
+## FAQ?
+Check the most common frequently asked questions here.
