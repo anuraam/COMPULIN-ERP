@@ -1,7 +1,7 @@
 #  <img src="images/logo.png" alt="Logo" style="height:50px; margin-top:5px;" />  COMPULIN ERP
 <span style="font-size:12px;">4 minutes read time | For Development Team</span>
 
-[FAQreference]:  faqs/README.md
+[FAQreference]:  faqs
 
 COMPULIN ERP is a customizable <span style="color: red">cloud-based</span> software solution designed to streamline various business processes. It comprises the following individual modules:
 
