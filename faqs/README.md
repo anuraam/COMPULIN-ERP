@@ -3,7 +3,10 @@
 
 ## How to backup / restore an AWS RDS-MSSQL database manually ?
 
-![myImage](images/aws_bacups.png)
+![aawsBackupImage](/images/aws_bacups.png)
+
+<span style="font-size:10px;">Image by docs.aws.amazon.com/AmazonRDS/latest/UserGuide</span>
+
 
 In order to backup MSSQL backups files (.bak) to S3 bucket, you can use below command
 
