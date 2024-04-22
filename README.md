@@ -1,5 +1,5 @@
 #  <img src="images/logo.png" alt="Logo" style="height:50px; margin-top:5px;" />  COMPULIN ERP
-<span style="font-size:12px;">Estimated read time: 4 minutes | For Development Team</span>
+<span style="font-size:12px;">4 minutes read time | For Development Team</span>
 
 
 COMPULIN ERP is a customizable cloud-based software solution designed to streamline various business processes. It comprises the following individual modules:
@@ -31,7 +31,9 @@ Here's a breakdown of the core technologies used.
 
 ## How to onboard a new customer ?
 
-Once your sales department onbord a new cusotmer for ERP, there are few things that you need to do.
-1. Start new tenent for the new customer
-2. Create logins for the customer
-3. Plan customer trainings
+Once your sales department has onboarded a new customer for the ERP system, there are a few key steps that you need to follow:
+
+1. Configure <b>a new tenant</b> for the new customer.
+2. Create <b>logins</b> for the customer.
+3. Plan <b>customer training</b> sessions to ensure they can effectively use the system.
+
