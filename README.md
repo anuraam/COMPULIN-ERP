@@ -37,3 +37,10 @@ Once your sales department has onboarded a new customer for the ERP system, ther
 2. Create <b>logins</b> for the customer.
 3. Plan <b>customer training</b> sessions to ensure they can effectively use the system.
 
+## How to onboard a new team member ?
+
+When you have a new team member to the development team, there are a few key steps that you need to follow:
+
+1. <b>Setup development Environment</b> for the new team member.
+2. <b>Introduce</b> to the customers.
+3. Plan <b>training and knoledge transfer sessions</b>
