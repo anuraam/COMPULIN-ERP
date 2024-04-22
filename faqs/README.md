@@ -3,6 +3,8 @@
 
 ## How to backup / restore an AWS RDS-MSSQL database manually ?
 
+![myImage](images/aws_bacups.png)
+
 In order to backup MSSQL backups files (.bak) to S3 bucket, you can use below command
 
 #### Exporting SQL Server databases using native backup
