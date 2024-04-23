@@ -36,7 +36,7 @@ In order to backup MSSQL backups files (.bak) to S3 bucket, please follow the st
 * **Step 02** :  Select the database server and start a new query window
 * **Step 03** :  Execute the command below
 
-### Exporting SQL Server databases using native backup
+## Exporting SQL Server databases using native backup
 
 ```SQL
 exec msdb.dbo.rds_backup_database
@@ -61,7 +61,7 @@ While exporting, you can check the status using this command
     exec msdb.dbo.rds_task_status
 ```
 
-### Importing SQL Server databases backup file using native backup
+## Importing SQL Server databases backup file using native backup
 In order to import MSSQL backups files (.bak) from S3 bucket to new database, please follow the command given below.
 
 #### Example
