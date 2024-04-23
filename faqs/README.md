@@ -23,18 +23,18 @@ As you can see in the image below from the Amazon User Guide (docs.aws.amazon.co
 
 In order to backup MSSQL backups files (.bak) to S3 bucket, please follow the steps below.
 
-* Step 01 :  Login to Microsoft SQL Server Management Studio
+* **Step 01** :  Login to Microsoft SQL Server Management Studio
 
 ![SQLServerMngStd](/images/SQLServerMngStd.png)
 
-<div style="background-color:#D9EDF7; border-left:6px solid #31708F; padding:0.5em; margin-bottom:1em;">
+<div style="background-color:#D9EDF7; border-left:0px solid #31708F; padding:0.5em; margin-bottom:1em; border-radius: 2px;">
   <i class="fas fa-info-circle" style="colour : #3d95ba"></i> <strong>NOTE</strong>
   <p>Kindly refer 1Password account for server names and login credentials.</p>
 </div>
 
 
-* Step 02 :  Select the database server and start a new query window
-* Step 03 :  Execute the command below
+* **Step 02** :  Select the database server and start a new query window
+* **Step 03** :  Execute the command below
 #### Exporting SQL Server databases using native backup
 
 ```SQL
