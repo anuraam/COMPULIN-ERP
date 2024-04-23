@@ -2,9 +2,20 @@
 
 
 # Frequently ask questions
-<span style="font-size:12px;">1 minutes read time | For Development Team</span>
+<span style="font-size:12px;">4 minutes read time | For Development Team</span>
 
-## How to backup MSSQL database manually ( in AWS RDS - Amazon Relaional Data Services)?
+## How to backup MSSQL cloud database ( in AWS RDS - Amazon Relaional Data Services)?
+
+In AWS, specifically when using Amazon RDS (Relational Database Service), backups are typically managed automatically. However, you still have the option to handle backups manually, which is necessary in certain industries where backups need to be retained for periods longer than the default 35-day maximum of automated backups. 
+
+For instance, the customers who are using the Accounting & Final Accounts Module often require datasets from specific dates, such as Financial Year End or Month End, for audit purposes. This requirement is not related to **disaster recovery**, and restoring the production database to a specific date is not possible. Therefore, in such scenarios, manual backups are essential.
+
+As you can see in the image below from the Amazon User Guide (docs.aws.amazon.com/AmazonRDS/latest/UserGuide), MSSQL database backup files are stored in S3 buckets for future reference.
+
+<div style="background-color:#D9EDF7; border-left:6px solid #31708F; padding:0.5em; margin-bottom:1em;">
+  <i class="fas fa-info-circle" style="colour : #3d95ba"></i> <strong>NOTE</strong>
+  <p>Kindly note that there is a <b>cost</b> for S3 storage.</p>
+</div>
 
 ![awsBackupImage](/images/aws_bacups.png)
 
