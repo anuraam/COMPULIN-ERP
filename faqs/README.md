@@ -35,7 +35,7 @@ In order to backup MSSQL backups files (.bak) to S3 bucket, please follow the st
 
 * **Step 02** :  Select the database server and start a new query window
 * **Step 03** :  Execute the command below
-#### Exporting SQL Server databases using native backup
+### Exporting SQL Server databases using native backup
 
 ```SQL
 exec msdb.dbo.rds_backup_database
@@ -47,11 +47,11 @@ exec msdb.dbo.rds_backup_database
 	[@number_of_files=n];
 ```
 
-### Example
+#### Example
 ``` SQL
     exec msdb.dbo.rds_backup_database 
     @source_db_name='prod_db_customer01', 
-    @s3_arn_to_backup_to='arn:aws:s3:::Singapore/prod_db_customer01_2024_Apr_24.bak',
+    @s3_arn_to_backup_to='arn:aws:s3:::compSingapore/prod_db_customer01_2024_Apr_24.bak',
     @overwrite_S3_backup_file=1;
 ```
 
@@ -60,11 +60,18 @@ While exporting, you can check the status using this command
     exec msdb.dbo.rds_task_status
 ```
 
-#### Importing SQL Server databases backup file using native backup
-### Example
+### Importing SQL Server databases backup file using native backup
+In order to import MSSQL backups files (.bak) from S3 bucket to new database, please follow the command given below.
+
+#### Example
 
 ``` SQL
     exec msdb.dbo.rds_restore_database
-    @restore_db_name='Inventory_DEMO',
-    @s3_arn_to_restore_from='arn:aws:s3:::compulindbsingapre/Inventory_JC30JAN2020.bak'
+    @restore_db_name='prod_db_customer01_audit',
+    @s3_arn_to_restore_from='arn:aws:s3:::compSingapore/prod_db_customer01_2024_Apr_24.bak'
+```
+
+While importing, you can check the status using this command
+``` SQL
+    exec msdb.dbo.rds_task_status
 ```
