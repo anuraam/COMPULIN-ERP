@@ -12,7 +12,7 @@ For instance, the customers who are using the Accounting & Final Accounts Module
 
 As you can see in the image below from the Amazon User Guide (docs.aws.amazon.com/AmazonRDS/latest/UserGuide), MSSQL database backup files are stored in S3 buckets for future reference.
 
-<div style="background-color:#D9EDF7; border-left:6px solid #31708F; padding:0.5em; margin-bottom:1em;">
+<div style="background-color:#D9EDF7; border-left:0px solid #31708F; padding:0.5em; margin-bottom:1em; border-radius: 2px;">
   <i class="fas fa-info-circle" style="colour : #3d95ba"></i> <strong>NOTE</strong>
   <p>Kindly note that there is a <b>cost</b> for S3 storage.</p>
 </div>
