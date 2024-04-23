@@ -4,7 +4,7 @@
 # Frequently ask questions
 <span style="font-size:12px;">4 minutes read time | For Development Team</span>
 
-## How to backup MSSQL cloud database ( in AWS RDS - Amazon Relaional Data Services)?
+## How to backup MSSQL cloud database?
 
 In AWS, specifically when using Amazon RDS (Relational Database Service), backups are typically managed automatically. However, you still have the option to handle backups manually, which is necessary in certain industries where backups need to be retained for periods longer than the default 35-day maximum of automated backups. 
 
@@ -19,17 +19,13 @@ As you can see in the image below from the Amazon User Guide (docs.aws.amazon.co
 
 ![awsBackupImage](/images/aws_bacups.png)
 
-
-
 ***<span style="font-size:10px;">Image by docs.aws.amazon.com/AmazonRDS/latest/UserGuide</span>***
 
-
-In order to backup MSSQL backups files (.bak) to S3 bucket, please follow below steps.
+In order to backup MSSQL backups files (.bak) to S3 bucket, please follow the steps below.
 
 * Step 01 :  Login to Microsoft SQL Server Management Studio
 
 ![SQLServerMngStd](/images/SQLServerMngStd.png)
-
 
 <div style="background-color:#D9EDF7; border-left:6px solid #31708F; padding:0.5em; margin-bottom:1em;">
   <i class="fas fa-info-circle" style="colour : #3d95ba"></i> <strong>NOTE</strong>
@@ -37,8 +33,8 @@ In order to backup MSSQL backups files (.bak) to S3 bucket, please follow below 
 </div>
 
 
-* Step 02 :  Select the database server and start a new query windows
-* Step 03 :  
+* Step 02 :  Select the database server and start a new query window
+* Step 03 :  Execute the command below
 #### Exporting SQL Server databases using native backup
 
 ```SQL
