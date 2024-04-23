@@ -35,6 +35,7 @@ In order to backup MSSQL backups files (.bak) to S3 bucket, please follow the st
 
 * **Step 02** :  Select the database server and start a new query window
 * **Step 03** :  Execute the command below
+
 ### Exporting SQL Server databases using native backup
 
 ```SQL
