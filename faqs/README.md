@@ -29,7 +29,7 @@ In order to backup MSSQL backups files (.bak) to S3 bucket, please follow the st
 
 <div style="background-color:#D9EDF7; border-left:0px solid #31708F; padding:0.5em; margin-bottom:1em; border-radius: 2px;">
   <i class="fas fa-info-circle" style="colour : #3d95ba"></i> <strong>NOTE</strong>
-  <p>Kindly refer 1Password account for server names and login credentials.</p>
+  <p>Kindly refer <a href="https://www.1password.com/"><b>1Password</b></a> account for server names and login credentials.</p>
 </div>
 
 
